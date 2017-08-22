@@ -3,6 +3,12 @@ class AllItems extends React.Component {
     constructor(props) {
         super(props);
 
+        this.onUpdate = this.onUpdate.bind(this);
+
+    }
+
+    onUpdate(item) {
+        this.props.onUpdate(item);
     }
 
     handleDelete(id){
@@ -15,6 +21,7 @@ class AllItems extends React.Component {
                 <Item
                     item={item}
                     handleDelete={this.handleDelete.bind(this, item.id)}
+                    handleUpdate={this.onUpdate}
                 />
             </div>
         ));

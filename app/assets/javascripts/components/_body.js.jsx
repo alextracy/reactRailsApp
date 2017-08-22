@@ -54,7 +54,7 @@ class Body extends React.Component {
         return (
             <div>
                 <NewItem handleSubmit={this.handleSubmit} />
-                <AllItems items={this.state.items} handleDelete={this.handleDelete} onUpdate={this.handleUpdate} />
+                <AllItems items={this.state.items} handleDelete={this.handleDelete} onUpdate={this.handleUpdate.bind(this)} />
             </div>
         );
     }
