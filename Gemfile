@@ -38,6 +38,8 @@ gem 'jquery-rails'
 
 gem 'jquery-ui-rails'
 
+gem 'bootstrap', '~> 4.0.0.beta'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 

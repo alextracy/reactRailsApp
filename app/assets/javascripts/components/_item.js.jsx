@@ -26,7 +26,7 @@ class Item extends React.Component {
     }
 
     render() {
-        const name = this.state.editable ? <input type="text" value={this.state.name}  onChange={e => this.handleChange('name', e)} className="col-4 form-control" /> : <h3>{this.props.item.name}</h3>;
+        const name = this.state.editable ? <input type="text" value={this.state.name} onChange={e => this.handleChange('name', e)} className="col-4 form-control" /> : <h3>{this.props.item.name}</h3>;
         const description = this.state.editable ? <input type="text" value={this.state.description} onChange={e => this.handleChange('description', e)} className="col-4 form-control" /> : <p>{this.props.item.description}</p>;
         const buttonStyle = this.state.editable ? 'btn btn-outline-primary btn-sm' : 'btn btn-outline-success btn-sm'
         return (
