@@ -49,7 +49,6 @@ class Body extends React.Component {
         this.setState({ items: items });
     }
 
-
     render() {
         return (
             <div>

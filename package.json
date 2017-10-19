@@ -1,5 +1,11 @@
 {
   "name": "reactRailsApp",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "version": "1.0.0",
+  "description": "learning react-rails app ",
+  "main": "index.js",
+  "repository": "https://github.com/alextracy/reactRailsApp.git",
+  "author": "alex tracy <atracy60@gmail.com>",
+  "license": "MIT"
 }
