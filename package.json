@@ -1,7 +1,9 @@
 {
   "name": "reactRailsApp",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "create-react-class": "^15.6.2"
+  },
   "version": "1.0.0",
   "description": "learning react-rails app ",
   "main": "index.js",
